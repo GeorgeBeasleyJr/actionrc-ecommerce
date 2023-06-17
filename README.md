@@ -7,3 +7,4 @@ The instructor is Andrei Neagoie from ZTM.
 ## The Project in a Nutshell
 
 This is a Mock Ecommerce Website which uses Firebase to store the data.
+# actionrc-ecommerce
