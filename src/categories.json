@@ -1,27 +1,38 @@
 [
   {
     "id": 1,
-    "title": "hats",
-    "imageUrl": "https://i.ibb.co/cvpntL1/hats.png"
+    "title": "boats",
+    "imageUrl": "https://m.media-amazon.com/images/I/71+ClA+ZhCS._AC_UL960_QL65_.jpg",
+    "route": "shop/boats"
   },
   {
     "id": 2,
-    "title": "jackets",
-    "imageUrl": "https://i.ibb.co/px2tCc3/jackets.png"
+    "title": "cars",
+    "imageUrl": "http://cdn2.expertreviews.co.uk/sites/expertreviews/files/2017/07/best_rc_cars_2017.jpg",
+    "route": "shop/cars"
   },
   {
     "id": 3,
-    "title": "sneakers",
-    "imageUrl": "https://i.ibb.co/0jqHpnp/sneakers.png"
+    "title": "drones",
+    "imageUrl": "https://ae01.alicdn.com/kf/HTB1LfyqXiDxK1Rjy1zcq6yGeXXah/SHRC-Professional-Wide-Angle-Drone-HD-Camera-RC-Drone-WiFi-FPV-Live-Helicopter-Hover-Altitude-Hold.jpg",
+    "route": "shop/drones"
   },
   {
     "id": 4,
-    "title": "womens",
-    "imageUrl": "https://i.ibb.co/GCCdy8t/womens.png"
+    "title": "helicopters",
+    "imageUrl": "http://i.ebayimg.com/00/s/Njg3WDE0NTk=/z/F3oAAOSwPhdU~ZmR/$_32.JPG",
+    "route": "shop/helicopters"
   },
   {
     "id": 5,
-    "title": "mens",
-    "imageUrl": "https://i.ibb.co/R70vBrQ/men.png"
+    "title": "planes",
+    "imageUrl": "http://site.nitrorcx.com/earl2.jpg",
+    "route": "shop/planes"
+  },
+  {
+    "id": 6,
+    "title": "trucks",
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81R2iTbogBL._SL1500_.jpg",
+    "route": "shop/trucks"
   }
 ]
