@@ -6,22 +6,20 @@ import ProductCard from '../../components/product-card/product-card.component';
 
 import { selectCategoriesMap } from '../../store/categories/category.selector';
 
-import { CategoryContainer, CategoryTitle } from './category.styles';
+import { CategoryContainer, Title } from './category.styles';
 
 const Category = () => {
   const { category } = useParams();
-  console.log('render/re-rendering category');
   const categoriesMap = useSelector(selectCategoriesMap);
   const [products, setProducts] = useState(categoriesMap[category]);
 
   useEffect(() => {
-    console.log('effect fired calling setProducts');
     setProducts(categoriesMap[category]);
   }, [category, categoriesMap])
 
   return (
     <Fragment>
-      <CategoryTitle>{ category.toUpperCase() }</CategoryTitle>
+      <Title>{category.toUpperCase()}</Title>
       <CategoryContainer>
         {products && 
           products.map((product) => (
@@ -29,7 +27,7 @@ const Category = () => {
           ))}
       </CategoryContainer>
     </Fragment>
-  )
-}
+  );
+};
 
 export default Category;

@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 
 export const ProductCardContainer = styled.div`
-
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 500px;
+  height: 350px;
   align-items: center;
   position: relative;
   
@@ -33,9 +32,10 @@ export const ProductCardContainer = styled.div`
       opacity: 0.85;
       display: flex;
     }
+  }
 `;
 
-export const FooterStyles = styled.div`
+export const Footer = styled.div`
   width: 100%;
   height: 5%;
   display: flex;
@@ -43,11 +43,11 @@ export const FooterStyles = styled.div`
   font-size: 18px;
 `
 
-export const NameStyles = styled.span`
+export const Name = styled.span`
   width: 90%;
   margin-bottom: 15px;
 `;
 
-export const PriceStyles = styled.span`
+export const Price = styled.span`
   width: 10%;
 `;

@@ -4,7 +4,7 @@ import {
   BackgroundImage, 
   Body, 
   DirectoryItemContainer 
-} from './directory-item.styles.jsx';
+} from './directory-item.styles';
 
 const DirectoryItem = ({ category }) => {
   const { imageUrl, title, route } = category;
@@ -20,8 +20,7 @@ const DirectoryItem = ({ category }) => {
         <p>Shop Now</p>
       </Body>
     </DirectoryItemContainer>
-  )
-
-}
+  );
+};
 
 export default DirectoryItem;

@@ -10,5 +10,7 @@ This is a Mock Ecommerce Website which uses Firebase to store the data.
 
 # actionrc-ecommerce
 
-I made some modifications like using a JSON file to store the Home page data.
-I also created an RC ecommerce website using pictures from Google.
+I made some modifications to his project: 
+  I used a JSON file to store the Directory images called Category-List.JSON.
+  I changed the project type from clothing to Remote Control Vehicles ecommerce website using pictures from Google.
+  Using Styled-Components I moved some of the smaller CSS files into their associated Components files.

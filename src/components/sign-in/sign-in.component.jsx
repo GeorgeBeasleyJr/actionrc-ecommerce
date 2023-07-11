@@ -1,8 +1,13 @@
 import { useState } from "react";
+
 import FormInput from "../form-input/form-input.component";
 import Button, { BUTTON_TYPE_CLASSES } from "../button/button.component";
 
-import { signInWithGooglePopup, signInAuthUserWithEmailAndPassword } from "../../utils/firebase/firebase.utils";
+import { 
+  signInAuthUserWithEmailAndPassword, 
+  signInWithGooglePopup, 
+} from "../../utils/firebase/firebase.utils";
+
 import { SignInContainer, ButtonsContainer} from './sign-in.styles';
 
 const defaultFormFields = {
@@ -45,7 +50,7 @@ const SignInForm = () => {
   const handleChange = (event) => {
     const {name, value} = event.target;
 
-    setFormFields({...formFields, [name]: value})
+    setFormFields({ ...formFields, [name]: value })
   };
 
   return (
@@ -61,6 +66,7 @@ const SignInForm = () => {
           name="email" 
           value={email}
         />
+
         <FormInput
           label="Password" 
           type="password" 
@@ -81,7 +87,7 @@ const SignInForm = () => {
         </ButtonsContainer>
       </form>
     </SignInContainer>
-  )
-}
+  );
+};
 
 export default SignInForm;
